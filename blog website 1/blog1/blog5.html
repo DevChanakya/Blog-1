@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Blogging Website</title>
+    <!-- Include Tailwind CSS CDN or your local CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-black text-white body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <img src="https://media.istockphoto.com/id/1328172649/vector/info-graphic-business-finance-logo-template.jpg?s=612x612&w=0&k=20&c=8JBxamMCB1mDU6-tglkbpUJnZDws5nRtmbnl4rpV5_w=" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">Blogs</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-white" href="np.html"><H1></H1>Home</a>
+                <a class="mr-5 hover:text-white" href="np.html"><H1></H1>All Blogs</a>
+                <a class="mr-5 hover:text-white" href="np.html#reviews">Reviews</a>
+                <a class="mr-5 hover:text-white" href="np.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="custom-margin">
+        <h1 class="text-4xl font-bold m-8">Decoding Credit Scores and Reports: Your Path to Financial Wellness</h1> 
+        <p class="m-8 text-xl">
+            Credit scores and reports are fundamental tools that shape your financial well-being and influence your access to loans, credit cards, mortgages, and even certain job opportunities. They play a pivotal role in assessing your creditworthiness and reflect your financial history and behavior. Understanding how credit scores and reports work is not just a matter of financial literacy; it's an essential skill for anyone who wants to take control of their financial future.
+            <br></p><div class="h-0.5 bg-gray-500 opacity-70"></div>
+            <section class="text-gray-600 body-font">
+                <div class="container mx-auto flex px-3 py-4 items-center justify-center flex-col">
+                  <img class="lg:w-4/6 md:w-5/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="data:image/png;base64,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">
+                  
+                    
+                    
+                  
+                </div>
+              </section><div class="h-0.5 bg-gray-500 opacity-70"></div>
+              
+              <p class="m-8 text-xl">Your credit report is a comprehensive document that summarizes your credit history, listing information about your past and current credit accounts, payment history, credit inquiries, and public records. This report is maintained by credit bureaus, such as Equifax, Experian, and TransUnion, and is a snapshot of your financial reliability. It's vital to review your credit report regularly to ensure its accuracy and identify any discrepancies or potential issues that might be dragging down your credit score.<br><div class="h-0.5 bg-gray-500 opacity-70"></div>
+<p class="m-8 text-xl">
+        Speaking of credit scores, they are numerical representations of your creditworthiness, typically ranging from 300 to 850 in the FICO scoring model. A higher score indicates lower credit risk, making you more appealing to lenders. These scores are calculated using data from your credit report, considering factors like payment history, credit utilization, length of credit history, types of credit, and recent credit inquiries. It's important to know that different scoring models might be used by lenders, so your score can vary slightly depending on which one they use.<br><div class="h-0.5 bg-gray-500 opacity-70"></div>
+        <p class="m-8 text-xl">
+        A good credit score can open doors, providing you access to better interest rates, lower insurance premiums, and an array of financial opportunities. In contrast, a poor credit score can result in higher borrowing costs and limited access to credit. Therefore, it's crucial to nurture a healthy credit profile by making timely payments, managing your credit utilization, and using credit responsibly.<br></p><div class="h-0.5 bg-gray-500 opacity-70"></div>
+        <p class="m-8 text-xl">
+        Whether you're trying to establish credit for the first time, rebuild a damaged credit history, or maintain an excellent credit score, knowledge about credit scores and reports is indispensable. Monitoring your credit regularly, addressing errors on your report, and practicing responsible credit management can empower you to take charge of your financial future. In a world where credit plays a substantial role in many aspects of life, from buying a home to securing a job, understanding and managing your credit scores and reports is a fundamental step toward financial wellness.
+            </p>
+        
+   
+        
+  
+    </div>
+   
+    <footer class="bg-black text-white dark:bg-gray-900">
+        <div class="mx-auto w-full max-w-screen-xl">
+            <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold white uppercase dark:text-white">Company</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">About</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Careers</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Brand Center</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold white uppercase dark:text-white">Help center</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Discord Server</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Twitter</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Facebook</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Legal</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Privacy Policy</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Licensing</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Download</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">iOS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Android</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Windows</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">MacOS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="px-4 py-6 bg-black dark:bg-gray-700 md:flex md:items-center md:justify-between">
+                <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">Blogs™</a>. All Rights Reserved.</span>
+                <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
+                    <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                            <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="sr-only">Facebook page</span>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                            <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.830.591.591 0 0 1 .143-.106.591.591 0 0 1 .283-.217.591.591 0 0 1 .418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="sr-only">Discord community</span>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                            <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="sr-only">Twitter page</span>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="sr-only">GitHub account</span>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239a11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238a8.5 8.5 0 0 1 5.664 2.152a9.608 9.608 0 0 1-4.476 3.087a45.758 45.758 0 0 0 8.777-1.219c.243.477.477.964.692 1.449a4.008 4.008 0 0 0-.114.032a13.569 13.569 0 0 0-6.942 5.636a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016a.366.366 0 0 1 .366.83a4.108 4.108 0 0 0 3.831 2.807a8.36 8.36 0 0 1 0 4.42c0-.177 0-.35-.012-.523a8.143 8.143 0 0 0 2.355-.635ZM4.772 16.093a37.232 37.232 0 0 0 2.584-9.555a12.513 12.513 0 0 1 5.321.364a8.56 8.56 0 0 1-3.66 5.73Z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="sr-only">Dribbble account</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

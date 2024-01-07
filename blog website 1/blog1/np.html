@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header class="bg-black text-white body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <img src="https://media.istockphoto.com/id/1328172649/vector/info-graphic-business-finance-logo-template.jpg?s=612x612&w=0&k=20&c=8JBxamMCB1mDU6-tglkbpUJnZDws5nRtmbnl4rpV5_w=" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Blogs</span>
+        </a>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-white" href="#moresection"><H1></H1>Home</a>
+            <a class="mr-5 hover:text-white" href="#reviews">Reviews</a>
+            <a class="mr-5 hover:text-white" href="#Contactsection">Contact</a>
+        </nav>
+    </div>
+</header>
+
+    <div >
+        <section  class="text-gray-600 body-font">
+            <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+            
+              <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-7xl text-5xl mb-4 font-bold text-gray-900">All about Finance
+                  <br class="hidden lg:inline-block">Explore more..
+                </h1>
+              </div>
+            </div>
+          </section>
+    </div>
+    
+    
+          <section id="moresection" class="text-gray-600 body-font">
+            <div class="container px-5 py-5 mx-auto">
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/3">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="data:image/jpeg;base64,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" alt="blog">
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Blog</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Cryptocurrency</h1>
+                      <p class="leading-relaxed mb-3">Explore the world of digital currencies and blockchain technology.</p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="blog1.html" >Read More
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            
+                            <div class="mr-2 flex gap-2 items-center text-black">tags:
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBECBJXgqX4lVXbInUbiUkOxtDaeVSqScOYQ&usqp=CAU" alt="blog">
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Blog</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Stock Market Investing</h1>
+                      <p class="leading-relaxed mb-3">Dive into the world of stocks, bonds, and investment strategies.</p>
+                      <div class="flex items-center flex-wrap">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="blog2.html" >Read More
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            
+                          
+                        </span>
+                        <div class="mr-2 flex gap-2 items-center text-black">tags:
+                            <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                            <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                        </div>
+                       
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDkmI8N-zxF-HMIUm52iQ-riYZSlE5elkBpQ&usqp=CAU" alt="blog">
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Blog</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Retirement Planning</h1>
+                      <p class="leading-relaxed mb-3">Secure your financial future by understanding retirement options and savings.</p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="blog3.html" >Read More
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            
+                          
+                            <div class="mr-2 flex gap-2 items-center text-black">tags:
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                          </div>
+                        
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="moresection" class="text-gray-600 body-font">
+            <div class="container px-5 py-5 mx-auto">
+              <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/3">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="data:image/jpeg;base64,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" alt="blog">
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Blog</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Personal Finance Budgeting</h1>
+                      <p class="leading-relaxed mb-3">Learn the art of managing your money, budgeting, and saving effectively.</p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="blog4.html" >Read More
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            
+                            <div class="mr-2 flex gap-2 items-center text-black">tags:
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBECBJXgqX4lVXbInUbiUkOxtDaeVSqScOYQ&usqp=CAU" alt="blog">
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Blog</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Credit Scores and Reports</h1>
+                      <p class="leading-relaxed mb-3">Discover the importance of credit scores and how to maintain a good credit history.</p>
+                      <div class="flex items-center flex-wrap">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="blog5.html">Read More
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            
+                          
+                            <div class="mr-2 flex gap-2 items-center text-black">tags:
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                  <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDkmI8N-zxF-HMIUm52iQ-riYZSlE5elkBpQ&usqp=CAU" alt="blog">
+                    <div class="p-6">
+                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Blog</h2>
+                      <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Real Estate Investment</h1>
+                      <p class="leading-relaxed mb-3">Explore opportunities in real estate investment, from rental properties to REITs.</p>
+                      <div class="flex items-center flex-wrap ">
+                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0" href="blog6.html" target="_blank">Read More
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+                          
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            
+                          
+                            <div class="mr-2 flex gap-2 items-center text-black">tags:
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                              <p class="bg-blue-300 text-sm p-1 rounded-xl"> finance</p>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+          <section class="bg-gray-100 py-16">
+            <div class="container mx-auto px-4">
+              <h2 class="text-3xl font-semibold text-center mb-8">Frequently Asked Questions</h2>
+              
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white shadow-lg rounded p-4">
+                  <h3 class="text-lg font-semibold">How do I open a savings account?</h3>
+                  <p class="mt-4">To open a savings account, you can visit our nearest branch or go to our online portal. Follow the simple application process, provide the required documents, and your account will be opened.</p>
+                </div>
+          
+                <!-- FAQ Item 2 -->
+                <div class="bg-white shadow-lg rounded p-4">
+                  <h3 class="text-lg font-semibold">What is the minimum balance for a checking account?</h3>
+                  <p class="mt-4">The minimum balance requirement for a checking account varies depending on the type of account you choose. Contact our customer support for specific account details.</p>
+                </div>
+          
+                <!-- FAQ Item 3 -->
+                <div class="bg-white shadow-lg rounded p-4">
+                  <h3 class="text-lg font-semibold">How can I apply for a credit card?</h3>
+                  <p class="mt-4">You can apply for a credit card online through our website or by visiting our branch. You'll need to provide personal and financial information, and your application will be reviewed by our team.</p>
+                </div>
+          
+                <!-- FAQ Item 4 -->
+                <div class="bg-white shadow-lg rounded p-4">
+                  <h3 class="text-lg font-semibold">What are the interest rates on your savings accounts?</h3>
+                  <p class="mt-4">Interest rates on savings accounts can vary and may change over time. Visit our Rates & Fees page for the latest information on interest rates.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+
+          
+          
+         
+          <footer class="bg-black text-white dark:bg-gray-900">
+            <div class="mx-auto w-full max-w-screen-xl">
+                <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold white uppercase dark:text-white">Company</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">About</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Careers</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Brand Center</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold white uppercase dark:text-white">Help center</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Discord Server</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Twitter</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Facebook</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Legal</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Licensing</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Download</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">iOS</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Android</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Windows</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">MacOS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="px-4 py-6 bg-black dark:bg-gray-700 md:flex md:items-center md:justify-between">
+                    <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">Blogs</a>. All Rights Reserved.</span>
+                    <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
+                        <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                                <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="sr-only">Facebook page</span>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                                <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.830.591.591 0 0 1 .143-.106.591.591 0 0 1 .283-.217.591.591 0 0 1 .418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="sr-only">Discord community</span>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                                <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="sr-only">Twitter page</span>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="sr-only">GitHub account</span>
+                        </a>
+                        <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239a11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238a8.5 8.5 0 0 1 5.664 2.152a9.608 9.608 0 0 1-4.476 3.087a45.758 45.758 0 0 0 8.777-1.219c.243.477.477.964.692 1.449a4.008 4.008 0 0 0-.114.032a13.569 13.569 0 0 0-6.942 5.636a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016a.366.366 0 0 1 .366.83a4.108 4.108 0 0 0 3.831 2.807a8.36 8.36 0 0 1 0 4.42c0-.177 0-.35-.012-.523a8.143 8.143 0 0 0 2.355-.635ZM4.772 16.093a37.232 37.232 0 0 0 2.584-9.555a12.513 12.513 0 0 1 5.321.364a8.56 8.56 0 0 1-3.66 5.73Z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="sr-only">Dribbble account</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+      
+</body>
+</html>
